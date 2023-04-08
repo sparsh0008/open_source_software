@@ -1,0 +1,355 @@
+ 
+ ################### Logwatch 7.5.6 (07/23/21) #################### 
+        Processing Initiated: Sat Apr  8 14:15:14 2023
+        Date Range Processed: between -90 days and today
+                              ( 2023-Jan-08 / 2023-Apr-08 )
+                              Period is day.
+        Detail Level of Output: 10
+        Type of Output/Format: stdout / text
+        Logfiles for Host: SPARSH
+ ################################################################## 
+ 
+ --------------------- dpkg status changes Begin ------------------------ 
+
+ Installed:
+    adwaita-icon-theme:all 41.0-1ubuntu1
+    alsa-topology-conf:all 1.2.5.1-2
+    alsa-ucm-conf:all 1.2.6.3-1ubuntu1.4
+    at-spi2-core:amd64 2.44.0-3
+    auditd:amd64 1:3.0.7-1build1
+    bleachbit:all 4.4.2-1
+    build-essential:amd64 12.9ubuntu3
+    bzip2:amd64 1.0.8-5build1
+    cpp-11:amd64 11.3.0-1ubuntu1~22.04
+    cpp-12:amd64 12.1.0-2ubuntu1~22.04
+    cpp:amd64 4:11.2.0-1ubuntu1
+    dconf-gsettings-backend:amd64 0.40.0-3
+    dconf-service:amd64 0.40.0-3
+    dctrl-tools:amd64 2.24-3build2
+    dkms:all 2.8.7-2ubuntu2.1
+    dpkg-dev:all 1.21.1ubuntu2.1
+    fakeroot:amd64 1.28-1ubuntu1
+    fontconfig-config:all 2.13.1-4.2ubuntu5
+    fontconfig:amd64 2.13.1-4.2ubuntu5
+    fonts-dejavu-core:all 2.37-2build1
+    g++-11:amd64 11.3.0-1ubuntu1~22.04
+    g++:amd64 4:11.2.0-1ubuntu1
+    gcc-11-base:amd64 11.3.0-1ubuntu1~22.04
+    gcc-11:amd64 11.3.0-1ubuntu1~22.04
+    gcc-12:amd64 12.1.0-2ubuntu1~22.04
+    gcc:amd64 4:11.2.0-1ubuntu1
+    gdb:amd64 12.1-0ubuntu1~22.04
+    gir1.2-atk-1.0:amd64 2.36.0-3build1
+    gir1.2-freedesktop:amd64 1.72.0-1
+    gir1.2-gdkpixbuf-2.0:amd64 2.42.8+dfsg-1ubuntu0.2
+    gir1.2-gtk-3.0:amd64 3.24.33-1ubuntu2
+    gir1.2-harfbuzz-0.0:amd64 2.7.4-1ubuntu3.1
+    gir1.2-notify-0.7:amd64 0.7.9-3ubuntu5.22.04.1
+    gir1.2-pango-1.0:amd64 1.50.6+ds-2ubuntu1
+    gsettings-desktop-schemas:all 42.0-1ubuntu1
+    gstreamer1.0-gl:amd64 1.20.1-1
+    gstreamer1.0-plugins-base:amd64 1.20.1-1
+    gtk-update-icon-cache:amd64 3.24.33-1ubuntu2
+    hardinfo:amd64 0.5.1+git20180227-2.1build1
+    hicolor-icon-theme:all 0.17-2
+    humanity-icon-theme:all 0.6.16
+    javascript-common:all 11+nmu1
+    libabsl20210324:amd64 0~20210324.2-2
+    libalgorithm-diff-perl:all 1.201-1
+    libalgorithm-diff-xs-perl:amd64 0.04-6build3
+    libalgorithm-merge-perl:all 0.08-3
+    libasan6:amd64 11.3.0-1ubuntu1~22.04
+    libasan8:amd64 12.1.0-2ubuntu1~22.04
+    libasound2-data:all 1.2.6.1-1ubuntu1
+    libasound2:amd64 1.2.6.1-1ubuntu1
+    libasyncns0:amd64 0.8-6build2
+    libatk-bridge2.0-0:amd64 2.38.0-3
+    libatk1.0-0:amd64 2.36.0-3build1
+    libatk1.0-data:all 2.36.0-3build1
+    libatomic1:amd64 12.1.0-2ubuntu1~22.04
+    libatspi2.0-0:amd64 2.44.0-3
+    libauparse0:amd64 1:3.0.7-1build1
+    libavahi-client3:amd64 0.8-5ubuntu5
+    libavahi-common-data:amd64 0.8-5ubuntu5
+    libavahi-common3:amd64 0.8-5ubuntu5
+    libb64-0d:amd64 1.2-5
+    libbabeltrace1:amd64 1.5.8-2build1
+    libbcg729-0:amd64 1.1.1-2
+    libboost-regex1.74.0:amd64 1.74.0-14ubuntu3
+    libc-ares2:amd64 1.18.1-1ubuntu0.22.04.1
+    libc-dev-bin:amd64 2.35-0ubuntu3.1
+    libc-devtools:amd64 2.35-0ubuntu3.1
+    libc6-dbg:amd64 2.35-0ubuntu3.1
+    libc6-dev:amd64 2.35-0ubuntu3.1
+    libcairo-gobject2:amd64 1.16.0-5ubuntu2
+    libcairo2:amd64 1.16.0-5ubuntu2
+    libcc1-0:amd64 12.1.0-2ubuntu1~22.04
+    libcdparanoia0:amd64 3.10.2+debian-14build2
+    libcolord2:amd64 1.4.6-1
+    libcrypt-dev:amd64 1:4.4.27-1
+    libcups2:amd64 2.4.1op1-1ubuntu4.1
+    libdate-manip-perl:all 6.86-1
+    libdatrie1:amd64 0.2.13-2
+    libdconf1:amd64 0.40.0-3
+    libdebuginfod-common:all 0.186-1build1
+    libdebuginfod1:amd64 0.186-1build1
+    libdeflate0:amd64 1.10-2
+    libdouble-conversion3:amd64 3.1.7-4
+    libdpkg-perl:all 1.21.1ubuntu2.1
+    libdrm-amdgpu1:amd64 2.4.113-2~ubuntu0.22.04.1
+    libdrm-intel1:amd64 2.4.113-2~ubuntu0.22.04.1
+    libdrm-nouveau2:amd64 2.4.113-2~ubuntu0.22.04.1
+    libdrm-radeon1:amd64 2.4.113-2~ubuntu0.22.04.1
+    libegl-mesa0:amd64 22.2.5-0ubuntu0.1~22.04.1
+    libegl1:amd64 1.4.0-1
+    libepoxy0:amd64 1.5.10-1
+    libevdev2:amd64 1.12.1+dfsg-1
+    libexpat1-dev:amd64 2.4.7-1ubuntu0.2
+    libfakeroot:amd64 1.28-1ubuntu1
+    libfile-fcntllock-perl:amd64 0.22-3build7
+    libflac8:amd64 1.3.3-2ubuntu0.1
+    libfontconfig1:amd64 2.13.1-4.2ubuntu5
+    libfreetype6:amd64 2.11.1+dfsg-1ubuntu0.1
+    libgail-common:amd64 2.24.33-2ubuntu2
+    libgail18:amd64 2.24.33-2ubuntu2
+    libgbm1:amd64 22.2.5-0ubuntu0.1~22.04.1
+    libgcc-11-dev:amd64 11.3.0-1ubuntu1~22.04
+    libgcc-12-dev:amd64 12.1.0-2ubuntu1~22.04
+    libgd3:amd64 2.3.0-2ubuntu2
+    libgdk-pixbuf-2.0-0:amd64 2.42.8+dfsg-1ubuntu0.2
+    libgdk-pixbuf2.0-bin:amd64 2.42.8+dfsg-1ubuntu0.2
+    libgdk-pixbuf2.0-common:all 2.42.8+dfsg-1ubuntu0.2
+    libgl1-amber-dri:amd64 21.3.7-0ubuntu1
+    libgl1-mesa-dri:amd64 22.2.5-0ubuntu0.1~22.04.1
+    libgl1:amd64 1.4.0-1
+    libglapi-mesa:amd64 22.2.5-0ubuntu0.1~22.04.1
+    libglvnd0:amd64 1.4.0-1
+    libglx-mesa0:amd64 22.2.5-0ubuntu0.1~22.04.1
+    libglx0:amd64 1.4.0-1
+    libgomp1:amd64 12.1.0-2ubuntu1~22.04
+    libgraphene-1.0-0:amd64 1.10.8-1
+    libgraphite2-3:amd64 1.3.14-1build2
+    libgrpc++1:amd64 1.30.2-3build6
+    libgrpc10:amd64 1.30.2-3build6
+    libgstreamer-gl1.0-0:amd64 1.20.1-1
+    libgstreamer-plugins-base1.0-0:amd64 1.20.1-1
+    libgtk-3-0:amd64 3.24.33-1ubuntu2
+    libgtk-3-bin:amd64 3.24.33-1ubuntu2
+    libgtk-3-common:all 3.24.33-1ubuntu2
+    libgtk2.0-0:amd64 2.24.33-2ubuntu2
+    libgtk2.0-bin:amd64 2.24.33-2ubuntu2
+    libgtk2.0-common:all 2.24.33-2ubuntu2
+    libgudev-1.0-0:amd64 1:237-2build1
+    libharfbuzz0b:amd64 2.7.4-1ubuntu3.1
+    libice6:amd64 2:1.0.10-1build2
+    libinput-bin:amd64 1.20.0-1ubuntu0.2
+    libinput10:amd64 1.20.0-1ubuntu0.2
+    libipt2:amd64 2.0.5-1
+    libisl23:amd64 0.24-2build1
+    libitm1:amd64 12.1.0-2ubuntu1~22.04
+    libjbig0:amd64 2.1-3.1ubuntu0.22.04.1
+    libjpeg-turbo8:amd64 2.1.2-0ubuntu1
+    libjpeg8:amd64 8c-2ubuntu10
+    libjq1:amd64 1.6-2.1ubuntu3
+    libjs-jquery:all 3.6.0+dfsg+~3.5.13-1
+    libjs-sphinxdoc:all 4.3.2-1
+    libjs-underscore:all 1.13.2~dfsg-2
+    libjsoncpp25:amd64 1.9.5-3
+    liblcms2-2:amd64 2.12~rc1-2build2
+    libllvm15:amd64 1:15.0.6-3~ubuntu0.22.04.2
+    liblsan0:amd64 12.1.0-2ubuntu1~22.04
+    liblua5.2-0:amd64 5.2.4-2
+    libluajit-5.1-2:amd64 2.1.0~beta3+dfsg-6
+    libluajit-5.1-common:all 2.1.0~beta3+dfsg-6
+    libmd4c0:amd64 0.4.8-1
+    libminizip1:amd64 1.1-8build1
+    libmpc3:amd64 1.2.1-2build1
+    libmtdev1:amd64 1.1.6-1build4
+    libnl-route-3-200:amd64 3.5.0-0.1
+    libnotify4:amd64 0.7.9-3ubuntu5.22.04.1
+    libnsl-dev:amd64 1.3.0-2build2
+    libogg0:amd64 1.3.5-0ubuntu3
+    libonig5:amd64 6.9.7.1-2build1
+    libopus0:amd64 1.3.1-0.1build2
+    liborc-0.4-0:amd64 1:0.4.32-2
+    libpango-1.0-0:amd64 1.50.6+ds-2ubuntu1
+    libpangocairo-1.0-0:amd64 1.50.6+ds-2ubuntu1
+    libpangoft2-1.0-0:amd64 1.50.6+ds-2ubuntu1
+    libpangoxft-1.0-0:amd64 1.50.6+ds-2ubuntu1
+    libpciaccess0:amd64 0.16-3
+    libpcre2-16-0:amd64 10.39-3ubuntu0.1
+    libpixman-1-0:amd64 0.40.0-1ubuntu0.22.04.1
+    libprotobuf23:amd64 3.12.4-1ubuntu7.22.04.1
+    libpulse0:amd64 1:15.99.1+dfsg1-1ubuntu2
+    libpython3-dev:amd64 3.10.6-1~22.04
+    libpython3.10-dev:amd64 3.10.6-1~22.04.2ubuntu1
+    libqt5core5a:amd64 5.15.3+dfsg-2ubuntu0.2
+    libqt5dbus5:amd64 5.15.3+dfsg-2ubuntu0.2
+    libqt5gui5:amd64 5.15.3+dfsg-2ubuntu0.2
+    libqt5multimedia5-plugins:amd64 5.15.3-1
+    libqt5multimedia5:amd64 5.15.3-1
+    libqt5multimediagsttools5:amd64 5.15.3-1
+    libqt5multimediawidgets5:amd64 5.15.3-1
+    libqt5network5:amd64 5.15.3+dfsg-2ubuntu0.2
+    libqt5printsupport5:amd64 5.15.3+dfsg-2ubuntu0.2
+    libqt5svg5:amd64 5.15.3-1
+    libqt5widgets5:amd64 5.15.3+dfsg-2ubuntu0.2
+    libquadmath0:amd64 12.1.0-2ubuntu1~22.04
+    librsvg2-2:amd64 2.52.5+dfsg-3
+    librsvg2-common:amd64 2.52.5+dfsg-3
+    libsbc1:amd64 1.5-3build2
+    libsensors-config:all 1:3.6.0-7ubuntu1
+    libsensors5:amd64 1:3.6.0-7ubuntu1
+    libsm6:amd64 2:1.2.3-1build2
+    libsmi2ldbl:amd64 0.4.8+dfsg2-16
+    libsnappy1v5:amd64 1.1.8-1build3
+    libsndfile1:amd64 1.0.31-2build1
+    libsource-highlight-common:all 3.1.9-4.1build2
+    libsource-highlight4v5:amd64 3.1.9-4.1build2
+    libspandsp2:amd64 0.0.6+dfsg-2
+    libspeexdsp1:amd64 1.2~rc1.2-1.1ubuntu3
+    libssh-gcrypt-4:amd64 0.9.6-2build1
+    libstdc++-11-dev:amd64 11.3.0-1ubuntu1~22.04
+    libtbb12:amd64 2021.5.0-7ubuntu2
+    libtbbmalloc2:amd64 2021.5.0-7ubuntu2
+    libthai-data:all 0.1.29-1build1
+    libthai0:amd64 0.1.29-1build1
+    libtheora0:amd64 1.1.1+dfsg.1-15ubuntu4
+    libtiff5:amd64 4.3.0-6ubuntu0.4
+    libtirpc-dev:amd64 1.3.2-2ubuntu0.1
+    libtsan0:amd64 11.3.0-1ubuntu1~22.04
+    libtsan2:amd64 12.1.0-2ubuntu1~22.04
+    libubsan1:amd64 12.1.0-2ubuntu1~22.04
+    libvisual-0.4-0:amd64 0.4.0-17build2
+    libvorbis0a:amd64 1.3.7-1build2
+    libvorbisenc2:amd64 1.3.7-1build2
+    libwacom-bin:amd64 2.2.0-1
+    libwacom-common:all 2.2.0-1
+    libwacom9:amd64 2.2.0-1
+    libwayland-client0:amd64 1.20.0-1ubuntu0.1
+    libwayland-cursor0:amd64 1.20.0-1ubuntu0.1
+    libwayland-egl1:amd64 1.20.0-1ubuntu0.1
+    libwayland-server0:amd64 1.20.0-1ubuntu0.1
+    libwebp7:amd64 1.2.2-2
+    libwireshark-data:all 3.6.2-2
+    libwireshark15:amd64 3.6.2-2
+    libwiretap12:amd64 3.6.2-2
+    libwsutil13:amd64 3.6.2-2
+    libx11-xcb1:amd64 2:1.7.5-1
+    libxcb-dri2-0:amd64 1.14-3ubuntu3
+    libxcb-dri3-0:amd64 1.14-3ubuntu3
+    libxcb-glx0:amd64 1.14-3ubuntu3
+    libxcb-icccm4:amd64 0.4.1-1.1build2
+    libxcb-image0:amd64 0.4.0-2
+    libxcb-keysyms1:amd64 0.4.0-1build3
+    libxcb-present0:amd64 1.14-3ubuntu3
+    libxcb-randr0:amd64 1.14-3ubuntu3
+    libxcb-render-util0:amd64 0.3.9-1build3
+    libxcb-render0:amd64 1.14-3ubuntu3
+    libxcb-shape0:amd64 1.14-3ubuntu3
+    libxcb-shm0:amd64 1.14-3ubuntu3
+    libxcb-sync1:amd64 1.14-3ubuntu3
+    libxcb-util1:amd64 0.4.0-1build2
+    libxcb-xfixes0:amd64 1.14-3ubuntu3
+    libxcb-xinerama0:amd64 1.14-3ubuntu3
+    libxcb-xinput0:amd64 1.14-3ubuntu3
+    libxcb-xkb1:amd64 1.14-3ubuntu3
+    libxcomposite1:amd64 1:0.4.5-1build2
+    libxcursor1:amd64 1:1.2.0-2build4
+    libxdamage1:amd64 1:1.1.5-2build2
+    libxfixes3:amd64 1:6.0.0-1
+    libxft2:amd64 2.3.4-1
+    libxi6:amd64 2:1.8-1build1
+    libxinerama1:amd64 2:1.1.4-3
+    libxkbcommon-x11-0:amd64 1.4.0-1
+    libxkbcommon0:amd64 1.4.0-1
+    libxpm4:amd64 1:3.5.12-1ubuntu0.22.04.1
+    libxrandr2:amd64 2:1.5.2-1build1
+    libxrender1:amd64 1:0.9.10-1build4
+    libxshmfence1:amd64 1.3-1build4
+    libxtst6:amd64 2:1.2.3-1build4
+    libxxf86vm1:amd64 1:1.1.4-1build3
+    linux-headers-5.15.0-67-generic:amd64 5.15.0-67.74
+    linux-headers-5.15.0-67:all 5.15.0-67.74
+    linux-headers-generic:amd64 5.15.0.67.65
+    linux-libc-dev:amd64 5.15.0-67.74
+    lm-sensors:amd64 1:3.6.0-7ubuntu1
+    logwatch:all 7.5.6-1ubuntu1
+    lto-disabled-list:all 24
+    make:amd64 4.3-4.1build1
+    manpages-dev:all 5.10-1ubuntu1
+    ncal:amd64 12.1.7+nmu3ubuntu2
+    postfix:amd64 3.6.4-1ubuntu1
+    python3-certifi:all 2020.6.20-1
+    python3-chardet:all 4.0.0-1
+    python3-dev:amd64 3.10.6-1~22.04
+    python3-distutils:all 3.10.6-1~22.04
+    python3-idna:all 3.3-1
+    python3-lib2to3:all 3.10.6-1~22.04
+    python3-pip:all 22.0.2+dfsg-1ubuntu0.2
+    python3-requests:all 2.25.1+dfsg-2
+    python3-setuptools:all 59.6.0-1.2ubuntu0.22.04.1
+    python3-urllib3:all 1.26.5-1~exp1
+    python3-wheel:all 0.37.1-2ubuntu0.22.04.1
+    python3.10-dev:amd64 3.10.6-1~22.04.2ubuntu1
+    qt5-gtk-platformtheme:amd64 5.15.3+dfsg-2ubuntu0.2
+    qttranslations5-l10n:all 5.15.3-1
+    rcs:amd64 5.10.1-1
+    rpcsvc-proto:amd64 1.4.2-0ubuntu6
+    session-migration:amd64 0.3.6
+    ssl-cert:all 1.1.2
+    sysdig-dkms:all 0.27.1-0.3ubuntu0.1
+    sysdig:amd64 0.27.1-0.3ubuntu0.1
+    sysstat:amd64 12.5.2-2ubuntu0.1
+    tshark:amd64 3.6.2-2
+    ubuntu-mono:all 20.10-0ubuntu2
+    wireshark-common:amd64 3.6.2-2
+    wireshark-qt:amd64 3.6.2-2
+    wireshark:amd64 3.6.2-2
+    x11-common:all 1:7.7+23ubuntu2
+    zlib1g-dev:amd64 1:1.2.11.dfsg-2ubuntu9.2
+ 
+ Upgraded:
+    libpython3.10-minimal:amd64 3.10.6-1~22.04.2 => 3.10.6-1~22.04.2ubuntu1
+    libpython3.10-stdlib:amd64 3.10.6-1~22.04.2 => 3.10.6-1~22.04.2ubuntu1
+    libpython3.10:amd64 3.10.6-1~22.04.2 => 3.10.6-1~22.04.2ubuntu1
+    python3-pkg-resources:all 59.6.0-1.2 => 59.6.0-1.2ubuntu0.22.04.1
+    python3.10-minimal:amd64 3.10.6-1~22.04.2 => 3.10.6-1~22.04.2ubuntu1
+    python3.10:amd64 3.10.6-1~22.04.2 => 3.10.6-1~22.04.2ubuntu1
+    tcpdump:amd64 4.99.1-3build2 => 4.99.1-3ubuntu0.1
+ 
+ ---------------------- dpkg status changes End ------------------------- 
+
+ 
+ --------------------- Disk Space Begin ------------------------ 
+
+ Filesystem      Size  Used Avail Use% Mounted on
+ /dev/sdb        251G  2.9G  236G   2% /
+ tools           154G  143G   11G  93% /init
+ drivers         154G  143G   11G  93% /usr/lib/wsl/drivers
+ lib             154G  143G   11G  93% /usr/lib/wsl/lib
+ drvfs           154G  143G   11G  93% /mnt/c
+ drvfs           162G  155G  7.1G  96% /mnt/d
+ drvfs           162G  160G  1.9G  99% /mnt/e
+ 
+ /init (tools) => 93% Used. Warning: Disk Filling up.
+ /usr/lib/wsl/drivers (drivers) => 93% Used. Warning: Disk Filling up.
+ /usr/lib/wsl/lib (lib) => 93% Used. Warning: Disk Filling up.
+ /mnt/c (drvfs) => 93% Used. Warning: Disk Filling up.
+ /mnt/d (drvfs) => 96% Used. Warning: Disk Filling up.
+ /mnt/e (drvfs) => 99% Used. Warning: Disk Filling up.
+ 
+ ---------------------- Disk Space End ------------------------- 
+
+ 
+ --------------------- lm_sensors output Begin ------------------------ 
+
+ No sensors found!
+ Make sure you loaded all the kernel drivers you need.
+ Try sensors-detect to find out which these are.
+ 
+ ---------------------- lm_sensors output End ------------------------- 
+
+ 
+ ###################### Logwatch End ######################### 
+
